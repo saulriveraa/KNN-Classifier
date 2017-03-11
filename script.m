@@ -2,7 +2,7 @@ clc; clear variables; close all;
 figure(1); set(1,'DefaultFigureWindowStyle','docked');
 
 %directory = uigetdir();
-directory = '/Users/saulrivera/Dropbox/University/classes data/9 semestre/machine_learning/exercises/exercise_2-3/cifar-10-batches-mat';
+directory = 'cifar-10-batches-mat';
 conf.cifar10_dir = directory;
 conf.train_files = {'data_batch_1.mat',...
                     'data_batch_2.mat',...
